@@ -7,7 +7,7 @@ about:
   head: e8e34e1
   archived: false
   latestVersion: v11
-  collectedAt: 2026-09-04T20:01:51Z
+  collectedAt: 2026-09-04T20:43:24Z
 timeline:
   created: 2022-10-24
   lastCommit: 2026-08-02
@@ -82,5 +82,33 @@ total:
   openIssue: 1
   commit: 163
 ---
+path: /home/runner/.x-repo/github.com/eeeXun/GTT
+collectedAt: 2026-09-04T20:43:24Z
+loc:
+  Go:
+    code: 3178
+    comments: 96
+    blanks: 264
+    files: 29
+  Yaml:
+    code: 46
+    comments: 31
+    blanks: 6
+    files: 3
+  Dockerfile:
+    code: 7
+    comments: 0
+    blanks: 2
+    files: 1
+  Markdown:
+    code: 0
+    comments: 157
+    blanks: 74
+    files: 1
+total:
+  code: 3246
+  comments: 288
+  blanks: 346
+  files: 34
 ---
 
