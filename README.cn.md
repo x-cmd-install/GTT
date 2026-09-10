@@ -4,13 +4,24 @@
 
 Google Translate TUI (Originally). Currently supports Apertium, Bing, ChatGPT, DeepL, DeepLX, Google, LibreTranslate, Reverso.
 
-![GTT](https://repo.x-cmd.io/GTT.svg)
+![GTT](https://repo.x-cmd.io/GTT.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install GTT
 ```
+
+## 代码洞察
+
+合计: **3,231** 行代码（覆盖前 5 种语言、共 **34** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 3,178 | 96 | 264 | 29 |
+| Yaml | 46 | 31 | 6 | 3 |
+| Dockerfile | 7 | 0 | 2 | 1 |
+| Markdown | 0 | 157 | 74 | 1 |
 
 ## 源代码
 
@@ -22,7 +33,6 @@ x install GTT
 - **最新版本**: `v11` (2026-01-24)
 - **最近提交**: 2026-08-02
 - **Release 含资产**: 3 个
-- **发布时间**: 2026-01-24T08:46:09Z
 
 ## 流行度
 
@@ -37,19 +47,19 @@ x install GTT
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 2 | 0 | 0 | 0 | 3 |
 | 90d | 2026-06-12 | 0 | 3 | 0 | 0 | 0 | 5 |
+| last180d | 2026-03-14 | 0 | 7 | 0 | 0 | 0 | 7 |
 | 360d | 2025-09-15 | 1 | 8 | 0 | 1 | 0 | 16 |
+| last720d | 2024-09-20 | 1 | 8 | 0 | 1 | 0 | 16 |
 
-## 代码规模
+## Release 资产
 
-合计: **3,231** 行代码（覆盖前 5 种语言、共 **34** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 3,178 | 96 | 264 | 29 |
-| Yaml | 46 | 31 | 6 | 3 |
-| Dockerfile | 7 | 0 | 2 | 1 |
-| Markdown | 0 | 157 | 74 | 1 |
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [gtt-darwin-arm64.tar.gz](https://github.com/eeeXun/GTT/releases/download/v11/gtt-darwin-arm64.tar.gz) | 3.2 MiB | `native/darwin/arm64` |
+| [gtt-linux-amd64.tar.gz](https://github.com/eeeXun/GTT/releases/download/v11/gtt-linux-amd64.tar.gz) | 3.5 MiB | `native/linux/x64` |
+| [gtt-linux-arm64.tar.gz](https://github.com/eeeXun/GTT/releases/download/v11/gtt-linux-arm64.tar.gz) | 3.1 MiB | `native/linux/arm64` |
 
 ## 改进这些数据
 
@@ -60,4 +70,4 @@ GTT 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:27:23Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T23:53:55Z._
